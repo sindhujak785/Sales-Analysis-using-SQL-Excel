@@ -23,7 +23,7 @@ This project analyzes pizza sales data using SQL and Excel to derive key busines
 ✔️ Worst-Selling Pizza: The Brie Carre Pizza
 
 
-![Dashboard](C:\Users\Suraj kumar gautam\OneDrive\Pictures)
+![Dashboard](https://github.com/sindhujak785/Sales-Analysis-using-SQL-Excel/blob/main/pizza_sales.csv)
 
 ## Key Insights from Data Analysis
 
