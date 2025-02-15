@@ -42,6 +42,7 @@ SELECT
   COUNT(DISTINCT order_id)AS total_orders 
 FROM pizza_sales;
 
+
 --Average Pizzas Per Order
 SELECT 
   CAST(
@@ -75,9 +76,9 @@ SELECT
   pizza_category,
   SUM(total_price)::numeric,
   ROUND(SUM(total_price)::numeric*100/(
-                                 SELECT SUM(total_price)::numeric FROM pizza_sales WHERE to_char(order_date,'mm')='01'
-								 ),2
-					             )AS percentage_category
+                        SELECT SUM(total_price)::numeric FROM pizza_sales WHERE to_char(order_date,'mm')='01'
+						 ),2
+					         )AS percentage_category
 FROM pizza_sales
 WHERE to_char(order_date,'mm')='01'
 GROUP BY 1;
@@ -97,7 +98,6 @@ GROUP BY 1
 ORDER BY 1;
 
 
-
 --Total Pizzas Sold by Pizza Category
 SELECT pizza_category ,
 SUM(quantity)as total_pizza_sold
@@ -114,6 +114,7 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY 2 DESC
 LIMIT 5;
+
 
 --Bottom 5 Worst Selling Pizzas
 SELECT pizza_name,
