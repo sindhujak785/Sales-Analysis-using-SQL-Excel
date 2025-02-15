@@ -21,6 +21,8 @@ This project analyzes pizza sales data using SQL and Excel to derive key busines
 ✔️ Best-Selling Pizza: The Pepperoni Pizza
 
 ✔️ Worst-Selling Pizza: The Brie Carre Pizza
+
+
 ![Dashboard](C:\Users\Suraj kumar gautam\OneDrive\Pictures)
 
 ## Key Insights from Data Analysis
