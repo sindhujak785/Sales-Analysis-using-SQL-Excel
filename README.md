@@ -101,23 +101,7 @@ SELECT
 FROM pizza_sales;
 ```
 
-### Total Orders
-```sql
- SELECT
-  COUNT(DISTINCT order_id)AS total_orders 
-FROM pizza_sales;
-```
 
-### Average Pizzas Per Order
-```sql
-SELECT 
-  CAST(
-    SUM(quantity) * 1.0 / COUNT(DISTINCT order_id) 
-    AS DECIMAL(10,2)
-  ) AS avg_pizza_sales
-FROM pizza_sales;
-
-```
 ### Sales Trends:
 
 ### Daily Trend for Total Orders
@@ -158,29 +142,7 @@ WHERE to_char(order_date,'mm')='01'
 GROUP BY 1;
 ```
 
-### % of Sales by Pizza Size
-```sql
-SELECT 
-  pizza_size,
-ROUND(SUM(total_price)::NUMERIC, 0)::INTEGER,
- ROUND(SUM(total_price)::numeric*100/(
-                        SELECT SUM(total_price)::numeric FROM pizza_sales WHERE to_char(order_date,'mm')='01'
-						),2
-						)AS percentage_size
-FROM pizza_sales
-WHERE to_char(order_date,'mm')='01'
-GROUP BY 1
-ORDER BY 1;
-```
 
-
-### Total Pizzas Sold by Pizza Category
-```sql 
-SELECT pizza_category ,
-SUM(quantity)as total_pizza_sold
-FROM pizza_sales
-GROUP BY 1;
-```
 
 ### Best & Worst Sellers:
 
@@ -204,6 +166,10 @@ LIMIT 5;
 ```
 
 Click here to view the full SQL query file (https://github.com/sindhujak785/Sales-Analysis-using-SQL-Excel/blob/main/SQL%20queries.sql)
+
+## Conclusion
+
+This project provides valuable insights into pizza sales trends using Excel and SQL. The interactive dashboard and queries help in understanding revenue, order trends, and best-selling pizzas.
 
 
 
