@@ -56,24 +56,7 @@ Power Query (Data cleaning & processing)
 
 
 ## SQL Queries & Analysis
-```sql
-DROP TABLE IF EXISTS pizza_sales;
-CREATE TABLE pizza_sales
-(
-pizza_id INT,	
-order_id INT,
-pizza_name_id VARCHAR(50),	
-quantity INT,
-order_date DATE,
-order_time TIME,
-unit_price FLOAT,
-total_price FLOAT,
-pizza_size VARCHAR(10),
-pizza_category VARCHAR(10),
-pizza_ingredients VARCHAR(250),	
-pizza_name VARCHAR(100)
-);
-```
+
 
 ### KPI Calculations:
  
