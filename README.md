@@ -4,11 +4,11 @@
 
 This project analyzes pizza sales data using SQL and Excel to derive key business insights. It includes data extraction, transformation, and visualization to identify revenue trends, best-selling items, and customer ordering patterns.
 
-### 📊 Dashboard Overview
+### Dashboard Overview
 
-🔹 The dashboard provides insights into total revenue, order trends, best & worst sellers, and category-wise sales.
+ The dashboard provides insights into total revenue, order trends, best & worst sellers, and category-wise sales.
 
-🔹 Key highlights include:
+ Key highlights include:
 
 ✔️ Total Revenue: $69,793
 
