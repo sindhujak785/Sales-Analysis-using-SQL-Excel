@@ -203,7 +203,7 @@ ORDER BY 2
 LIMIT 5;
 ```
 
-Click here to view the full SQL query file 
+Click here to view the full SQL query file (https://github.com/sindhujak785/Sales-Analysis-using-SQL-Excel/blob/main/SQL%20queries.sql)
 
 
 
