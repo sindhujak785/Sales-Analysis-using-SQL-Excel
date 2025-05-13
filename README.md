@@ -8,19 +8,19 @@ This project analyzes pizza sales data using SQL and Excel to derive key busines
 
  The dashboard provides insights into total revenue, order trends, best & worst sellers, and category-wise sales.
 
- Key highlights include:
+ -Key highlights include:
 
-✔️ Total Revenue: $69,793
+ -Total Revenue: $69,793
 
-✔️ Total Pizzas Sold: 4,232
+ -Total Pizzas Sold: 4,232
 
-✔️ Average Order Value: $38
+ -Average Order Value: $38
 
-✔️ Peak Order Time: 12 PM - 1 PM & 4 PM - 8 PM
+ -Peak Order Time: 12 PM - 1 PM & 4 PM - 8 PM
 
-✔️ Best-Selling Pizza: The Pepperoni Pizza
+ -Best-Selling Pizza: The Pepperoni Pizza
 
-✔️ Worst-Selling Pizza: The Brie Carre Pizza
+ -Worst-Selling Pizza: The Brie Carre Pizza
 
 
 ![Dashboard](https://github.com/sindhujak785/Sales-Analysis-using-SQL-Excel/blob/main/pizza%20sales%20dashboard.png)
@@ -29,22 +29,22 @@ This project analyzes pizza sales data using SQL and Excel to derive key busines
 
 ### Sales & Customer Trends:
 
-✔️ Orders peak on Friday & Saturday evenings.
+ Orders peak on Friday & Saturday evenings.
 
-✔️ Large-sized pizzas contribute to the highest revenue.
+ Large-sized pizzas contribute to the highest revenue.
 
 ### Best & Worst Performers:
 
-✔️ The Pepperoni Pizza has the highest sales.
+ The Pepperoni Pizza has the highest sales.
 
-✔️ The Brie Carre Pizza is the least popular.
+ The Brie Carre Pizza is the least popular.
 
 
 ### Revenue & Order Patterns:
 
-✔️ Classic category pizzas generate maximum revenue.
+ Classic category pizzas generate maximum revenue.
 
-✔️ The highest number of orders occur between 12 PM - 1 PM and 4 PM - 8 PM.
+ The highest number of orders occur between 12 PM - 1 PM and 4 PM - 8 PM.
 
 ## Technologies Used
 
